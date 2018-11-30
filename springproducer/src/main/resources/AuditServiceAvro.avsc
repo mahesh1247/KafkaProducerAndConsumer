@@ -1,0 +1,10 @@
+{"namespace": "com.kafka.demo",
+ "type": "record",
+ "version":1,
+ "name": "TestAvro",
+ "fields": [
+     {"name": "identifier", "type":"string"},
+     {"name": "user",  "type": "string"}
+ ]
+}
+  

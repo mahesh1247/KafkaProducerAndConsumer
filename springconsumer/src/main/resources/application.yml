@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    stream:
+      schemaRegistryClient:
+         endpoint: http://localhost:8081
+      bindings:
+        input:
+          contentType: application/*+avro
+          binder: kafka
+          destination: demoTopic
+#      schema:
+#        avro:
+#          dynamic-schema-generation-enabled: true    
